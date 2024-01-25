@@ -16,12 +16,6 @@ pipeline {
         echo 'Delopy App'   
       } 
     } 
-  
-    stage('Run Java Code') {
-      steps {
-        echo 'Running the Java code...'
-        sh 'java -jar OnceAgainDev.jar'
-  } 
 }
   post {
     always
