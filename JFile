@@ -20,7 +20,7 @@ pipeline {
     stage('Run Java Code') {
       steps {
         echo 'Running the Java code...'
-        sh 'java -jar your_java_code.jar'
+        sh 'java -jar OnceAgainDev.jar'
   } 
 }
   post {
