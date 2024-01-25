@@ -16,7 +16,13 @@ pipeline {
         echo 'Delopy App'   
       } 
     } 
+  
+    stage('Run Java Code') {
+      steps {
+        echo 'Running the Java code...'
+        sh 'java -jar your_java_code.jar'
   } 
+}
   post {
     always
     { 
